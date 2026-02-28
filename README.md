@@ -62,9 +62,9 @@
 
 ###
 
-# 🏠 The WESapONE
+# 🏠 The WesLab
 
-This repository is the **Single Source of Truth** for the WESapONE infrastructure. 
+This repository is the **Single Source of Truth** for the WesLab infrastructure. 
 Managed by **[Komodo](https://komodo.software)** using a **GitOps** workflow and 
 further documentation using rackpeek and netbox.
 ## 🚀 Architecture Overview
