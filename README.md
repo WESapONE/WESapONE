@@ -55,9 +55,9 @@
 ###
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WESapONE/WESapONE/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WESapONE/WESapONE/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/WESapONE/WESapONE/output/pacman-contribution-graph.svg">
 </picture>
 
 ###
@@ -199,6 +199,12 @@ sequenceDiagram
 
 <!--🐍📈SNAKEGRAPH / 🌐WEBSITE: https://github.com/Platane/snk & https://github.com/ironmaniiith/Github-profile-name-writer -->
 <img src="https://raw.githubusercontent.com/WESapONE/WESapONE/snake/github-snake-dark.svg" width="100%">
+
+###
+
+<img src="https://raw.githubusercontent.com/WESapONE/WESapONE/output/snake.svg" alt="Snake animation" />
+
+###
 
 <!--📉METRICS / 🌐WEBSITE: https://github.com/lowlighter/metrics -->
 <h4 align="right">
