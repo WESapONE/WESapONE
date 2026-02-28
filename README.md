@@ -229,7 +229,7 @@ sequenceDiagram
 
 <!--😂🃏JOKECARD / 🌐WEBSITE: https://github.com/ABSphreak/readme-jokes -->
 <p align="center">
-<img src="https://readme-jokes-WESapONEs-projects.vercel.app/api" alt="Jokes Card" width="400">
+<img src="https://readme-jokes-trinibs-projects.vercel.app/api" alt="Jokes Card" width="400">
 
 <!--💬QUOTESTITLE / 🌐WEBSITE: https://textanim.com/ -->
 <p align="center">
@@ -241,11 +241,11 @@ sequenceDiagram
 
 <!--💬🃏QUOTESCARD / 🌐WEBSITE: https://github.com/PiyushSuthar/github-readme-quotes#Demo & https://github.com/cheehwatang/github-readme-daily-quotes & https://github.com/shravan20/github-readme-quotes -->
 <p align="center">
-<img src="https://piyu-github-readme-quotes-WESapONEs-projects.vercel.app/api?theme=merko&border=true">
+<img src="https://piyu-github-readme-quotes-trinibs-projects.vercel.app/api?theme=merko&border=true">
 <p align="center">
-<img src="https://github-readme-quotes-WESapONEs-projects.vercel.app/quote?theme=merko&layout=churchill&animation=grow_out_in&font=Architect">
+<img src="https://github-readme-quotes-trinibs-projects.vercel.app/quote?theme=merko&layout=churchill&animation=grow_out_in&font=Architect">
 <p align="center">
-<img src="https://github-readme-daily-quotes-WESapONEs-projects.vercel.app/api?theme=merko&category=programming&border=true&border_color=bdf259&border_width=3&border_radius=40&font=new_rocker"><br><br>
+<img src="https://github-readme-daily-quotes-trinibs-projects.vercel.app/api?theme=merko&category=programming&border=true&border_color=bdf259&border_width=3&border_radius=40&font=new_rocker"><br><br>
 
 <!--💬🃏MEMESTITLE / 🌐WEBSITE: https://textanim.com/ -->
 <p align="center">
@@ -255,9 +255,9 @@ sequenceDiagram
 <p align="center">
 <img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/llamas/llama-blood-tears-gif.gif" width="30"><img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/llamas/llama-blood-tears-gif.gif" width="30"><img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/llamas/llama-blood-tears-gif.gif" width="30"><img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/llamas/llama-blood-tears-gif.gif" width="30"><img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/llamas/llama-blood-tears-gif.gif" width="30"><img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/llamas/llama-blood-tears-gif.gif" width="30"><img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/llamas/llama-blood-tears-gif.gif" width="30"><img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/llamas/llama-blood-tears-gif.gif" width="30"><img src="https://github.com/seanprashad/slackmoji/blob/master/emoji/llamas/llama-blood-tears-gif.gif" width="30">
 
-<!--🃏MEMEPHOTOS / 🌐WEBSITE: https://github.com/WESapONE/Subreddit-Memes -->
+<!--🃏MEMEPHOTOS / 🌐WEBSITE: https://github.com/trinib/Subreddit-Memes -->
 <p align="center">
-<img src="https://subreddit-memes-WESapONEs-projects.vercel.app/api/meme" width="400px"/>
+<img src="https://subreddit-memes-trinibs-projects.vercel.app/api/meme" width="400px"/>
 
 <!--📏LINE-->
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
