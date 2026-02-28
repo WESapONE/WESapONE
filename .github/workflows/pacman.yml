@@ -1,8 +1,8 @@
-name: Generate pacman game
+name: generate pacman game
 
 on:
   schedule: # Run automatically every 24 hours
-    - cron: "0 0 * * *"
+    - cron: "0 */24 * * *"
   workflow_dispatch: # Allows manual triggering
   push: # Runs on every push to the main branch
     branches:
