@@ -1,0 +1,3 @@
+- uses: sergioramos/yarn-actions/install@v6
+  with:
+    frozen-lockfile: true
