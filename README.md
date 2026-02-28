@@ -61,6 +61,7 @@
 </picture>
 
 ###
+
 # 🏠 The WESapONE
 
 This repository is the **Single Source of Truth** for the WESapONE infrastructure. 
