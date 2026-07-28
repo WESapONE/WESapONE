@@ -1,52 +1,0 @@
-U
-
-    �j3d�  �                   @   s�   d dl Z d dlZd dlmZ dZdZdZdZG dd� d�Zed	kr�e� Z	de	j
-d d < de	j
-d d< de	j
-d d< de	j
-d
- d< e	�dd� dS )�    N)�datetime�   �   �   �   c                   @   sd   e Zd Zdd� Zdd� Zdd� Zdd� Zd	d
-� Zdd� Zd
-d� Z	dd� Z
-dd� Zdd� Zdd� Z
-dS )�connect4c                 C   sj   t j�d�rNt�tdd��}|d | _|d | _|d | _|d | _	| �
-�  n| ��  tt
-| j��| _d S )N�games/current.p�rb�grid�plays�player�rounds)�os�path�exists�pickle�load�openr
-   �whosTurnr   r
-   �valid_moves�create_newgame�range�len�valid)�selfZgame� r   �+/home/runner/work/WESapONE/WesLab/connect4.py�__init__   s    
-
-
-
-
-zconnect4.__init__c                 C   s   t j�d�rdS dS )Nr   FT)r   r   r   �r   r   r   r   �is_game_over   s    zconnect4.is_game_overc                 C   s(   t �| j| j| j| jd�tdd�� d S )N�r
-   r   r   r
-   r   �wb)r   �dumpr
-   r   r   r
-   r   r   r   r   r   �save_currentgame   s
-    ��zconnect4.save_currentgamec                 C   sD   t �| j| j| j| jd�tdt�� �	d� d d�� t
-�d� d S )Nr    zgames/z%m_%d_%Y-%H_%M_%Sz.pr!   r   )r   r"   r
-   r   r   r
-   r   r   �now�strftimer   �remover   r   r   r   �wongame!   s    ���zconnect4.wongamec                 C   s2   dd� t d�D �| _d| _g | _d| _| ��  d S )Nc                 S   s   g | ]}d d� t d�D ��qS )c                 S   s   g | ]}d �qS )r   r   )�.0�colr   r   r   �
-<listcomp>*   s     z6connect4.create_newgame.<locals>.<listcomp>.<listcomp>�   )r   )r(   �rowr   r   r   r*   *   s     z+connect4.create_newgame.<locals>.<listcomp>�   r   r   )r   r
-   r   r   r
-   r#   r   r   r   r   r   )   s
-    zconnect4.create_newgamec              
-   C   s�   t t| j��D ]�}t t| jd ��D ]�}| j| | dkr$| j| | }| �| jt|d ||d�s�| �| jt||d |d�s�| �| jt|d |d |d�s�| �| jt|d |d |d�r$  dS q$qdS )Nr   r   r   TF)r   r   r
-   �
-recur_checker�SOUTH�EAST�	SOUTHEAST�	SOUTHWEST)r   r,   r)   �colorr   r   r   �
-iswonornot0   s    ���zconnect4.iswonornotc              	   C   s�   |dkrdS |t |�ks8|t |d �ks8|dk s8|dk r<dS || | |krPdS || | |kr�|tkr�| �|||d |||d �S |tkr�| �||||d ||d �S |tkr�| �|||d |d ||d �S |tkr�| �|||d |d ||d �S dS )Nr   TFr   )r   r/   r.   r0   r1   r2   )r   r
-   �	directionr,   r)   r3   Zhowmanyleftr   r   r   r.   =   s     ,  zconnect4.recur_checkerc                 C   s*   | j D ]}|D ]}|dkr  dS qqdS )Nr   TF)r
-   )r   r,   r)   r   r   r   �has_space_leftQ   s
-    
-zconnect4.has_space_leftc                 C   s   | j | �� fS )N)r   r   r   r   r   r   �whosturnX   s    zconnect4.whosturnc                 C   s�   |d8 }|t | jd �k|dk B r2| j| �� dfS | jD ],}|| dkr8| j| j| j�|� |<  qfq8| jd d | _|| jkr�| j�|� |  jd7  _| �� r�| �	�  | j| �� dfS | �
-� s�| �	�  | j| �� dfS | ��  | j| �� dfS )Nr   r   r   r   )r   r
-   r   r   �indexr   �appendr
-   r4   r'   r6   r#   )r   �xZcurr_playerr,   r   r   r   �move[   s&    
-
-z
-connect4.movec                 C   sF   g }t t| jd ��D ]$}| jd | dkr|�|d � q|| _|S )Nr   �����r   )r   r   r
-   r9   r   )r   r   �ir   r   r   r   t   s    zconnect4.valid_movesN)�__name__�
-__module__�__qualname__r   r   r#   r'   r   r4   r.   r6   r7   r;   r   r   r   r   r   r      s   
-
-r   �__main__�   z@boerni)r   r   r   r0   r/   r1   r2   r   r>   �Connr
-   r;   r   r   r   r   �<module>   s   r
