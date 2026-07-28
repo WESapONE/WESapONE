@@ -183,7 +183,7 @@ sequenceDiagram
 <!--📊STREAKSTATSGRAPH / 🌐WEBSITE: https://github.com/denvercoder1/github-readme-streak-stats -->
 <img src="https://github-readme-streak-stats-WESapONE-projects.vercel.app/?user=WESapONE&theme=merko&border=599200">
 
-<!--📙LANGUAGES / 🌐WEBSITE: https://github.com/anuraghazra/github-readme-stats -->
+<!--📙LANGUAGES / 🌐WEBSITE: https://github.com/WESapONE/github-readme-stats -->
 <p align="center">
 <a href="https://github.com/WESapONE/AdGuard-WireGuard-Unbound-DNScrypt"><img src="https://github-readme-stats-WESapONE-projects.vercel.app/api/top-langs?username=WESapONE&theme=merko&layout=compact&border_color=599200&langs_count=6">
 
